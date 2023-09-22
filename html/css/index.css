@@ -1,0 +1,110 @@
+
+.title-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+  }
+  .image-container {
+    position: relative;
+  }
+  
+  .title-overlay {
+    position: absolute;
+    top: 300px;
+  }
+  
+  
+   .image-container  {
+    width: 100%;
+    height: 80vh; /* 画像の縦幅の最大値を指定 */
+    object-fit: cover; /* 画像を縦横比を維持したままコンテナにフィットさせる */
+  }
+  
+  .navbar {
+    background-color: #f7f1f1;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+    color: #841b1b;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .navbar-brand:hover {
+    color: #f5f4ef;
+  }
+
+  .logo-image {
+    width: 100px; /* 任意の幅を指定してください */
+    height: auto;
+  }
+ 
+  .title-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の追加 */
+    
+  }
+  
+  .stylish-title {
+    text-shadow: 2px 2px 4px rgba(215, 51, 51, 0.5); /* 影の指定 */
+  }
+
+  .fancy-title {
+    text-shadow: 0 0 10px #b9a319; /* 影の指定 */
+  }
+  
+  .about-title {
+    background: linear-gradient(45deg, #d89023, #ff5f6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  
+  
+  #skills {
+    background-color: #2ddac3;
+    width: 100%;
+  }
+  
+  #contact {
+    background-color: #e6e6e6;
+    width: 100%;
+  }
+  
+  #hobbies {
+    background-color: #ecf407;
+    width: 100%;
+  }
+  #skills, #contact, #hobbies {
+    max-width: 100%;
+  }
+
+  #skills, #contact, #hobbies {
+    padding: 3px; /* 余白の調整 */
+    margin: 0; /* マージンのリセット */
+  }
+
+
+  #profile {
+    color: #3b83cb; /* 赤色に設定 */
+  }
+
+
+  #hobbies h2,
+　#skills h2,
+　#contact h2 {
+  color: #0e0b0b; /* テキストの色を赤色に設定 */
+}
+
+#hobbies p,
+#skills p,
+#contact p {
+  color: #200f8f; /* テキストの色を青色に設定 */
+}

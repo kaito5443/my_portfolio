@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>kaito's Portfolio</title>
+    <style>
+        .ul-p {
+          display: flex;
+          justify-content: flex-end;
+          padding: 0;
+          list-style: none;
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+      
+        .ul-p li {
+          margin-right: 50px;
+          margin-left: 50px;
+          transition: transform 0.3s; /* 変化の速さやタイミングを設定 */
+        }
+
+        
+        .navbar-brand {
+    position: relative;
+  }
+
+  .navbar-brand::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+
+  .navbar-brand:hover::before,
+  .navbar-brand:focus::before {
+    opacity: 1;
+    background-color: #0d1017;
+  }     　　
+  　　　　　　　　.ul-p li:hover {
+      transform: scale(1.2); /* マウスオーバー時に要素を拡大する */
+      
+    }
+
+    .logo-container {
+  position: relative;
+}
+
+.social-media-icon {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease;
+}
+
+.logo-container:hover .social-media-icon {
+  transform: scale(1.2);
+}
+
+
+  </style>
+</head>
+<body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- ヘッダー -->
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+    <a class="navbar-brand" href="#">
+      <img src="images/computer.png" alt="ロゴ画像"class="logo-image">
+    </a>
+    </div>
+    <ul class="ul-p">
+     　　 <li><a class="navbar-brand" href="#profile">自己紹介</a></li>
+         <li><a class="navbar-brand" href="#skills">技術</a></li>
+         <li><a class="navbar-brand" href="#hobbies">趣味</a></li>
+        　<li><a class="navbar-brand" href="#contact">お問い合わせ</a></li>
+  
+    </ul>
+  </div>
+</nav>
+    <!-- プロフィール -->
+    <div class="image-container" style="background-color: #f6f2f2;">
+        <div class="row">
+            <div class="title-with-image">
+                <div class="image-container">
+                    <img src="images/new-image.jpg" alt="新しい画像" class="img-fluid" style="width: 100%; height: 700px;">
+       　 <div class="col-lg-15 text-center">
+        　 <div class="col-lg-15 text-bottom">
+            <div class="title-overlay">
+        <h1 class="display-4　title-text">kaito's Portfolio</h1>
+          </div>
+        </div>
+        <div id="profile" class="container">
+        <div class="row">
+          <hr style="margin: 30px 0;"> <!-- 横線の追加とマージンの設定 -->
+          <h1 class="about-title">僕について</h1>
+          <hr style="margin: 30px 0;"> <!-- 横線の追加とマージンの設定 -->
+          <h3>about me</h3>
+            <div class="col-sm-4">
+              <br>
+              <img src="images/IMG_2564.jpg" alt="プロフィール画像" class="img-circle img-fluid" style="max-width: 100%;">
+            </div>
+            <div class="col-sm-8">
+                <br>
+                <h5>自己紹介</h5>
+                <br>
+                <h3>鈴木海斗</h3>
+                <h3>[すずきかいと]</h3>
+                <br>
+                <p>群馬県邑楽郡板倉町出身　25歳</p>
+                <p>現在は、栃木県佐野市で物流センターで勤めており、主に届いた荷物の検品を担当しています。</p>
+                <p>前職は、群馬県明和工場で製造業をしておりました。当時は、生産ラインの前半を担当しており、溶接工程を担当していました。</p>
+                <p>私が溶接機で製品を溶接し、溶接した製品を後工程に送ることでラインの進行をスムーズに保ち、１日でも多く生産量を上げることを目標としていました。</p>
+                <p>また、自分が担当していた工程において、作業の効率化や工具の改善などを先輩や同僚と相談し、生産ラインの停止時間を短縮することに成功しました。</p>
+                <p>その結果、月間の生産量10%増加することができました。</p>
+                <p>[高校時代]</p>
+                <p>群馬県立板倉高等学校　普通科</p>
+                <p>2013年4月〜2016年3月卒業</p>
+                <p>高校在籍中では、飲食店、コンビニでアルバイト経験もあり、接客や商品陳列、レジ操作を担当しコミニュケーションスキルや販売スキルを身につけ、仕事に対する責任感も強くなりました。</p>
+                <p>[プログラミングを目指すきっかけ]</p>
+                <p>高校時代からプログラミングの仕事に憧れていました。その理由としては、高校入学と同時にスマートフォンを買ってもらい、自分がサイトやアプリケーションを使って買い物や情報をどのように設計しているのかを知って、自分自身で作ってみたいと思ったからです。</p>
+                <p>当時、自分のアイデアを形にすることに魅力を感じ、プログラマーとして働くことが夢でした。</p>
+                <p>しかし、高校卒業後、家庭の事情により進学することができず就職することになりました。その後、SNSを閲覧中にweb制作の広告を読み、自分の夢をもう一度追い続けることで、周りの人々に影響を与えられる存在になりたいと思い再びweb制作を目指すことに決めました。</p>
+                <p>[学んできたこと]</p>
+                <p>プログラミングの知識を得るために、オンラインスクールで学びました。</p>
+                <p>主に、zoomを使ってエンジニアとのマンツーマンで、教材を通じてプログラミング言語やフレームワークの基礎から応用まで幅広く学習しました。</p>
+                <p>具体的には、HTML/CSS,JavaScriptをはじめとするフロントエンド技術や、PHPなどのバックエンド技術について学びました。</p>
+                <p>また、データベースの設計やバージョン管理ツールの使用方法など実践的なスキルを身に付きました。</p>
+                <p>現在もプログラミングの勉強に取り組み、開発の現場で必要とされるスキルや知識を身につけるために日々努力しています。</p>
+
+
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- 趣味 -->
+    <div id="hobbies" class="container">
+    <div class="container mt-5">
+      <hr style="margin: 30px 0;"> <!-- 横線の追加とマージンの設定 -->
+      <h2 class="text-center mb-5 fancy-title">趣味</h2>
+      <hr style="margin: 30px 0;"> <!-- 横線の追加とマージンの設定 -->
+      <h3 class="text-center mb-5">hobby</h3>
+        <div class="row">
+          <div class="mt-4"></div> <!-- 横線の下の余白 -->
+            <div class="col-sm-4">
+                <img src="images/move.png" alt="趣味1" class="img-thumbnail">
+                <h3>映画鑑賞</h3>
+                <p>さまざまなジャンルの映画を見ることで、ストーリー展開や演出技術などを見ることが好きで、自分自身の感性を磨くために欠かせないものとなっています。</p>
+                <p>また、映画館での映画鑑賞は臨場感があり、一緒に映画を観る人達との共有感も味わえるのが好きです。</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/walking.jpg" alt="趣味2" class="img-thumbnail">
+                <h3>ウォーキング</h3>
+                <p>コロナ鍋の影響もあり、部屋で過ごすことが多くなり、身体を動かすことで、リフレッシュし、自然や街の景色も楽しみながらストレス解消にもつながり、ウォーキングの魅力に改めて気付かされました。</p>
+                <p>週末には近所の公園を歩きます。</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://placehold.jp/150x150.png" alt="趣味3" class="img-thumbnail">
+                <h3>音楽鑑賞</h3>
+                <p>趣味3の説明をここに記載します。</p>
+            </div>
+        </div>
+    </div>
+
+    　　　  
+    <div id="skills" class="container">
+    <div class="container mt-5">
+      <hr style="margin: 30px 0;">
+      <h2 class="text-center mb-5 stylish-title">技術</h2>
+      <hr style="margin: 30px 0;">
+      <h3 class="text-center mb-5">skill</h3>
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="images/logo.png" alt="スキル1" class="img-thumbnail" style="width: 250px; height: 200px;">
+          <h3>HTML/CSS</h3>
+          <p>基本的な構文化やタグの使い方を習得しました。</p>
+          <p>webページの構造化やスタイリングに関する知識を深め、セマンティックなマークアップを意識したコーディングを行えるようになりました。</p>
+          <p>また、レスポンシブデザインに対応するためのメデイアクエリやフレキシブルボックスモデルなど柔軟なレイアウトの作成方法も学びました。</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/js.png" alt="スキル2" class="img-thumbnail" style="width: 250px; height: 200px;">
+          <h3>JavaScript</h3>
+          <p>基本的な文法や制御構造から始め、DOM操作や、イベント処理、アニメーションの実装などを学びました。</p>
+          <p>Ajaxを使った非同期通信やAPIの利用方法にも取り組みました。さらに、モダンなJaveSucuriptフレームワークの学習も行い、コンポーネントベースの開発や状態管理についても理解を深めました。</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/php.png" alt="スキル3" class="img-thumbnail" style="width: 250px; height: 200px;">
+          <h3>PHP</h3>
+          <p>文法やデータ型、関数の使い方を学びました。データベースとの連携やフォームデータの受け取り、セッション管理など、Webアプリケーションの開発において重要な要素を学びました。</p>
+          <p>また、MVCアーキテクチャに基づいたフレームワーク（例：Laravel）の学習も行い、効率的な開発やセキュリティ対策の実装についても実践的な経験を積みました。</p>
+        </div>
+        <div class="col-sm-3">
+          <img src="https://placehold.jp/150x150.png" alt="スキル4" class="img-thumbnail">
+          <h3>スキル4</h3>
+          <p>スキル4の説明をここに記載します。</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- フッター -->
+    <div id="contact" class="container">
+    <footer class="container-fluid text-center">
+      <div class="contact-info">
+        <hr style="margin: 30px 0;">
+        <h2 class="display-4 title-text" style="font-size: 40px;">お問い合わせ</h2>
+        <hr style="margin: 30px 0;">
+        <p>Email: 0xz5c734325025f@ezweb.ne.jp</p>
+        <p>Phone: 080-5524-7102</p>
+      </div>
+      <div class="logo-container">
+        <a href="https://instagram.com/kaito1097?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+          <img src="images/insta.png" alt="Instagram" class="social-media-icon" id="logo-img">
+        </a>
+        <div class="links">
+          <h4>kaito`s Instagram</h4>
+          <p>&copy; 2023 kaito's Portfolio.</p>
+        </div>
+      </div>
+    </footer>
+    
+  <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      
+       $(document).ready(function() {
+      $('.ul-p li').hover(
+        function() {
+          $(this).css({
+            'transform': 'scale(1.2)',
+          });
+        },
+        function() {
+          $(this).css({
+            'transform': 'scale(1)',
+          });
+        }
+      );
+    });
+    function zoomInLogo() {
+    var logoImg = document.getElementById('logo-img');
+    logoImg.style.transform = 'scale(1.2)';
+  }
+
+  function zoomOutLogo() {
+    var logoImg = document.getElementById('logo-img');
+    logoImg.style.transform = 'scale(1)';
+  }
+    </script>
+</body>
+</html>
